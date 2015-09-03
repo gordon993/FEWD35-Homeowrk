@@ -1,0 +1,86 @@
+body {
+	background-color: #4F4F4F;
+}
+
+.container {
+	width: 800px;
+	padding: 20px;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	border: #CCCCCC 4px solid;
+}
+
+h1 {
+text-align: center;
+color: white;
+font-style: italic;
+}
+
+h2 {
+	color: white;
+	font-weight: bold;
+	font-family: helvetica;
+}
+
+h3 {
+	color: white;
+	font-weight: lighter;
+}
+
+ul {
+		text-align: center;
+}
+
+li {
+	display: inline;
+	color: white;
+	font-weight: bold;
+	padding-right: 4px;
+	font-family: helvetica;
+}
+
+a {
+	color: #81BF7E;
+
+}
+
+.bullets {
+	text-align: left;
+	display: list-item;
+	color: #9E9E9E;
+	list-style-type: square;
+	<!--**//the ident i cant figure out **//>
+}
+
+.role {
+	font-weight: bold;
+
+}
+
+.company {
+	font-weight: normal;
+}
+
+.year {
+	font-weight: lighter;
+	color: #9E9E9E;
+	font-size: 82%;
+}
+
+
+.listheader {
+	font-size: 14;
+	color: #9E9E9E;
+	text-transform: uppercase;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.right-border {
+	border-right: #CCCCCC 2px solid;
+}
+
+.divider {
+	border-top: #CCCCCC 1px solid;
+}
