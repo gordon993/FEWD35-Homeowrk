@@ -1,6 +1,6 @@
 body {
 	background-color: #4F4F4F;
-	font-family: georgia;
+	font-family: **;
 }
 
 .container {
@@ -16,6 +16,8 @@ h1 {
 text-align: center;
 color: white;
 font-style: italic;
+font-size: 35px;
+font-weight: lighter;
 }
 
 h2 {
