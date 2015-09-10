@@ -1,6 +1,10 @@
 body {
 	background-color: #4F4F4F;
-	font-family: **;
+	color: #CCCCCC;
+}
+
+nav {
+	text-align: center;
 }
 
 .container {
@@ -29,64 +33,67 @@ h2 {
 h3 {
 	color: white;
 	font-weight: lighter;
-
-}
-
-ul {
-		**
-}
-
-nav {
-	text-align: center;
-
-}
-
-li {
-	display: inline;
-	color: white;
-	font-weight: bold;
-	padding-right: 4px;
-	font-family: helvetica;
 }
 
 a {
-	color: #81BF7E;
-
+	color: #81BF7E;	
 }
 
-.bullets {
-	display: list-item;
-	color: #9E9E9E;
+li {
 	list-style-type: square;
-	<!--**//the ident i cant figure out **//>
+	color: white;
+	font-family: helvetica;
+}
+
+.job {
+	display: inline;
+}
+
+.educationlist {
+	line-height: 50%;
+	font-weight: bold;
 }
 
 .role {
 	font-weight: bold;
-
+	list-style-type: square;
 }
 
 .company {
 	font-weight: normal;
+	display: inline;
 }
 
 .year {
 	font-weight: lighter;
 	color: #9E9E9E;
 	font-size: 82%;
+	display: inline;
 }
 
 
 .listheader {
 	font-size: 14;
-	color: #9E9E9E;
+	color: #CCCCCC;
 	text-transform: uppercase;
 	font-family: arial;
 	font-weight: bold;
 }
 
+.inline {
+	display: inline;
+	font-family: helvetica;
+	font-weight: bold;
+	padding-left: 5px;
+}
+
 .right-border {
+	display: inline;
 	border-right: #CCCCCC 2px solid;
+	font-family: helvetica;
+	font-weight: bold;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .divider {
@@ -102,8 +109,6 @@ a {
 	margin-bottom: 6px;
 	margin-left: 4px;
 }
-
-
 
 
 
