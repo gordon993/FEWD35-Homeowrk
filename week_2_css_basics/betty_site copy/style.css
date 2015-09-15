@@ -56,12 +56,12 @@ li {
 
 .role {
 	font-weight: bold;
-	list-style-type: square;
 }
 
 .company {
 	font-weight: normal;
 	display: inline;
+	*****
 }
 
 .year {

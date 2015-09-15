@@ -1,0 +1,177 @@
+body {
+	background-color: #white;
+	color: black;
+	font-family: verdana;
+}
+
+nav {
+	text-align: left;
+}
+
+p {
+	font-size: 16pt;
+}
+
+h1 {
+	text-align: center;
+	color: #AC1E1E;
+	font-style: normal;
+	font-size: 48pt;
+	font-family: Verdana;
+	font-weight: normal;
+	display: inline;
+}
+
+h2 {
+	color: black;
+	font-size: 24pt;
+	font-weight: normal;
+	font-family: verdana;
+	display: inline;
+	margin-top:
+}
+
+h3 {
+	color: gray;
+	font-weight: normal;
+	font-family: verdana;
+	font-size: 	19pt;
+}
+
+h4 a {
+	float: right;
+	color: #AC1E1E;
+	font-size: 18pt;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+li {color: gray;}
+
+
+ul li a {
+	text-decoration: none;
+	color: #AC1E1E
+}
+
+nav a {
+	color: white;
+	font-family: verdana;
+	text-decoration: none;
+
+}
+
+h4 {
+	font-size: 18pt;
+	font-weight: normal;
+}
+
+
+ul {
+	color: #AC1E1E;
+}
+
+
+img {
+	max-height: 250px;
+	max-width: 600px;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+
+footer {
+	color: gray;
+	float: left;
+}
+
+footer nav a {
+	color: #AC1E1E;
+	font-size: 10pt;
+}
+
+
+
+.left {
+	float: left;
+	width: 63%
+}
+
+.right {
+	float: right;
+	width: 33%
+}
+
+.container {
+	width: 1100px;
+	padding: 80px;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	border: white 4px solid;
+}
+
+.firstLetter {
+	font-size: 66pt;
+	color: gray;
+	margin: -.1em .1em 0 -.1em;
+    vertical-align: text-bottom;
+   	line-height: 1;
+   	float: left;
+}
+
+.ad {
+	background-color: #CCC;
+	height: 250px;
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: verdana;
+	font-size: 36pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 125px;
+}
+
+
+.inline {
+	display: inline;
+	font-family: verdana;
+	font-weight: normal;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 26px;
+	padding-right: 26px;
+	color: white;
+	background-color: black;
+	font-size: 19pt;
+}
+
+
+
+
+
+
+
+.right-border {
+	display: inline;
+	color: blue;
+	border-right: blue 2px solid;
+	font-family: verdana;
+	font-weight: bold;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.divider {
+	border-top: #CCCCCC 1px solid;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+
+
+
+
+
