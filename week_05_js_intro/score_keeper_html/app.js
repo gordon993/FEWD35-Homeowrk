@@ -1,24 +1,25 @@
-id="score"
-
-id="increase-5"
-id="decrease-5"
-id="custom-score"
-id="submit-custom-score" 
-
 var score = 0;
+var scoreBoard = document.getElementById("score")
 
 document
 	.getElementById("increase-5")
 	.addEventListener("click", function() {
-    score += 5;
-    changeScore();
+    	score += 5;
+    	scoreBoard
+			.innerHTML = score + " Points";
 });
 
 document
 	.getElementById("decrease-5")
 	.addEventListener("click", function() {
-	score -=5;
-	changeScore();
+		if (score >= 5) {
+			score -= 5;
+		} else { 
+			score -=5;
+    		
+    		scoreBoard
+				.innerHTML = score + " Points";
+	}
 });
 
 document
@@ -28,13 +29,18 @@ document
 		score = parseInt(newScore);
 
 		document.getElementById("custom-score").value = "";
-		changeScore();
+    	scoreBoard
+			.innerHTML = score + " Points";
 	});
 
 
 
-function changeScore() {
-	document
-	.getElementById("score")
-	.innerHTML = score + " Points";
-}
+// function changeScore() {
+// 	document
+// 		.getElementById("score")
+// 		.innerHTML = score + " Points";
+// }
+
+
+// scoreBoard
+// 	.innerHTML = score + " Points";
