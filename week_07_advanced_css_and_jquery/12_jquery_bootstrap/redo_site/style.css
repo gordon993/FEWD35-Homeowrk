@@ -1,0 +1,23 @@
+.header{
+	height: 80px;
+	background-color: #2d2d32;
+	color: white;
+	border-style: solid black;
+	position: relative;
+}
+.header h2{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%)
+}
+
+h2{
+	padding-left: 25px;
+	font-size: 3em;
+}
+
+h4{
+	margin-left: 200px;
+
+}
