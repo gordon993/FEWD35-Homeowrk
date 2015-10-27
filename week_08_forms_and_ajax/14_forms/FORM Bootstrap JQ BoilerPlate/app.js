@@ -8,12 +8,12 @@ $(document).on("submit", "form", function(event) {
         name1: $("#name1").val(),
         name2: $("#name2").val(),
         email: $("#email").val(),
+        address: $("#address").val(),
         city: $("#city").val(),
         state: $("#state").val(),
         country: $("#country").val(),
     };
 
-console.log(formInfo);
 
 for (field in formInfo) {
     if (formInfo[field] === "") {
@@ -21,6 +21,7 @@ for (field in formInfo) {
         return false;
     }
 }
+// time to submit
 
 alert("Form submitted!");
 
